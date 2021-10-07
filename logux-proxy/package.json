@@ -1,0 +1,20 @@
+{
+  "name": "logux-proxy",
+  "version": "1.0.0",
+  "description": "Logux proxy server",
+  "main": "index.js",
+  "author": "Alex Musayev <alex.musayev@gmail.com>",
+  "private": "true",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo TBD"
+  },
+  "dependencies": {
+    "@logux/server": "0.10.6"
+  },
+  "devDependencies": {}
+}
